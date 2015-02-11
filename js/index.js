@@ -54,3 +54,4 @@ $(".contact-form button").click(function() {
         }, 350);
 });
 
+var s = skrollr.init({forceHeight: false});
