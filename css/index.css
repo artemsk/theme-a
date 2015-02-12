@@ -17,8 +17,8 @@ body {
 /* top */
 
 .top-background-line {
-    background-image: url("../images/aquarium2.gif");  
-    height: 10px;
+    background-color: #ccc; 
+    height: 7px;
 }
 
 .fixed-header {
@@ -59,7 +59,8 @@ body {
 
 .moto-big, h1 {
     font-size: 43px;
-    font-family: "Roboto Light", "open sans";
+    font-family: "Roboto", "Open Sans";
+    font-weight: 300;
     line-height: 53px;    
     letter-spacing: 1px;
     margin-top: 0px;
@@ -263,9 +264,7 @@ h3 > .thinner {
     display: none;
 }
 
-/* parallax */
-
-/* CSS */
+/* parallax type 12 */
 
 .hsContainer {
     display: table;
@@ -276,6 +275,7 @@ h3 > .thinner {
     position: relative;
     opacity: 0;
 }
+
 .hsContent {
     max-width: 450px;
     margin: -150px auto 0 auto;
@@ -285,6 +285,7 @@ h3 > .thinner {
     padding: 0 8%;
     text-align: center
 }
+
 .bcg {
     background-position: center center;
     background-repeat: no-repeat;
@@ -293,5 +294,8 @@ h3 > .thinner {
     height: 100%;
     width: 100%;
 }
-/* Slide 1 */
-#slide-1 .bcg {background-image:url('../images/b4.jpg')}
+
+#slide-1 .bcg {
+    /*background-image:url();*/
+    background-color: #ccc;
+}
