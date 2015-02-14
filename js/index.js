@@ -31,8 +31,8 @@ $(".fold-header").click(function() {
 });
 
 
-$(".logo-header").click(function() {
-    event.stopPropagation();
+$(".logo-header").click(function(event) {
+    event.stopPropagation(event);
     $(".sidebar").animate({left:"0px"},250);
     $(".overlay").show();
     $(".overlay").animate({opacity:"0.74902"},250);
